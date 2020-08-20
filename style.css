@@ -34,6 +34,30 @@ body {
             animation: fadein 2s;
 }
 
+.btn {
+    text-align: center;
+    padding-top: 30px;
+}
+
+button {
+    background: none;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    border: 3px solid #ffffff;
+    font-size: 25px;
+    border-radius: 50px;
+    transition: .6s;
+    cursor: pointer;
+    outline: none;
+}
+
+
+button:active {
+    box-shadow: 0 5px #808080;
+    transform: translateY(10px);
+  }
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
